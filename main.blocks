@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="uTWoMNpRVAtjJ18Rtu,m">mySprite</variable><variable type="KIND_SpriteKind" id="QIOp!/XAMl!QylfJ,#%+">Player</variable><variable type="KIND_SpriteKind" id="~Q:kpo5{d^r79@U!11rE">Projectile</variable><variable type="KIND_SpriteKind" id="Z#HKu!BF1J^Law-OK-gI">Food</variable><variable type="KIND_SpriteKind" id="lEmRK8ga2*g1t.LrD[{F">Enemy</variable></variables><block type="pxt-on-start" id="+WkewEH.s@ityy]j-:ib" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="arx4-3oh06-Wa^XLZ5,G"><field name="VAR" id="uTWoMNpRVAtjJ18Rtu,m">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Sg/W^l|3[5Xyev*!W_s^"><value name="img"><shadow type="screen_image_picker" id="#{^q8aCIfER0vaxf?[Ja"><field name="img">img`
+. . . . . . . . 3 . . . . . . . 
+. . . . . . 3 3 3 3 . . . . . . 
+. . . . 3 3 3 3 3 3 3 . . . . . 
+. . . . 3 f 3 3 3 3 f 3 . . . . 
+. . . . 3 3 3 3 3 3 3 3 . . . . 
+. . . . 3 3 f 3 3 f 3 3 . . . . 
+. . . . 3 3 3 f f 3 3 3 . . . . 
+. . . . 3 3 3 3 3 3 3 3 . . . . 
+. . . . 3 3 . . . 3 3 3 . . . . 
+. . . . 3 3 . . . . 3 3 . . . . 
+. . . . 3 3 . . . . 3 3 . . . . 
+. . . . 3 . . . . . . 3 . . . . 
+. . . . 3 . . . . . . 3 . . . . 
+. . . . 3 . . . . . . 3 . . . . 
+. . 3 3 3 . . . . 3 3 3 . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"#{^q8aCIfER0vaxf?[Ja"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="@ETP_0uS(F|A[2a2g96:"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesay" id="?CTrRGkH~BMuV6XMy.Aa"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id=";VO%x%RNv+6N9@!1[jDi"><field name="VAR" id="uTWoMNpRVAtjJ18Rtu,m">mySprite</field></block></value><value name="text"><shadow type="text" id="i`)qgMe?=I;7R`otgc8E"><field name="TEXT">:)</field></shadow></value></block></next></block></statement></block></xml>
